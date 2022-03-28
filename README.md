@@ -1,3 +1,12 @@
+<h1 align="center">[SOLUCIÓN - VIDEO SOLUCIÓN]</h1>
+<p align="center">---CLICK PARA VER EL VIDEO---</p>
+
+<a href="https://drive.google.com/file/d/1MJeLIHmg709jEffz1PyMCNxNlIqQgysc/view?usp=sharing">
+    <div align="center">
+        <img src="https://i.imgur.com/WFvng8a.png">
+    </div>
+</a>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
