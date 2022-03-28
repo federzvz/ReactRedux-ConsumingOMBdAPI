@@ -36,6 +36,7 @@ const initialState = {
   movies: {},
   series:{},
   selectedMovieOrSerie:{},
+  favorites:{},
 };
 
 const movieSlice = createSlice({

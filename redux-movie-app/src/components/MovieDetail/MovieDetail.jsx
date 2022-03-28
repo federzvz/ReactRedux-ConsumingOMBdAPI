@@ -2,7 +2,10 @@ import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchAsyncMovieOrSerieDetail, getSelectedMovieOrSerie, removeSelectedMovieOrSerie } from '../../features/movies/movieSlice';
-import "./MovieDetail.scss"
+import "./MovieDetail.scss";
+import { faHeartbeat } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faComments, faHeart, faNewspaper } from "@fortawesome/free-regular-svg-icons";
 
 const MovieDetail = () => {
     const {imdbID} = useParams();
@@ -22,20 +25,21 @@ const MovieDetail = () => {
           ) : (
             <>
               <div className="section-left">
-                <div className="movie-title">{data.Title}</div>
+                <div className="movie-title">{data.Title} - <FontAwesomeIcon
+                        icon={faHeart}/></div>
                 <div className="movie-rating">
                   <span>
-                    IMDB Rating <i className="fa fa-star"></i> : {data.imdbRating}
+                    Puntuación IMDB <i className="fa fa-star"></i> : {data.imdbRating}
                   </span>
                   <span>
-                    IMDB Votes <i className="fa fa-thumbs-up"></i> :{" "}
+                  Votos IMDB <i className="fa fa-thumbs-up"></i> :{" "}
                     {data.imdbVotes}
                   </span>
                   <span>
-                    Runtime <i className="fa fa-film"></i> : {data.Runtime}
+                    Duración <i className="fa fa-film"></i> : {data.Runtime}
                   </span>
                   <span>
-                    Year <i className="fa fa-calendar"></i> : {data.Year}
+                    Año <i className="fa fa-calendar"></i> : {data.Year}
                   </span>
                 </div>
                 <div className="movie-plot">{data.Plot}</div>
@@ -45,19 +49,19 @@ const MovieDetail = () => {
                     <span>{data.Director}</span>
                   </div>
                   <div>
-                    <span>Stars</span>
+                    <span>Actores</span>
                     <span>{data.Actors}</span>
                   </div>
                   <div>
-                    <span>Generes</span>
+                    <span>Géneros</span>
                     <span>{data.Genre}</span>
                   </div>
                   <div>
-                    <span>Languages</span>
+                    <span>Lenguajes</span>
                     <span>{data.Language}</span>
                   </div>
                   <div>
-                    <span>Awards</span>
+                    <span>Premios</span>
                     <span>{data.Awards}</span>
                   </div>
                 </div>

@@ -6,6 +6,7 @@ import PageNotFound from './components/PageNotFound/PageNotFound';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
+import Favorites from './components/Favorites/Favorites';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home/>} />
             <Route path="/movie/:imdbID" element={<MovieDetail/>} />
+            <Route path="/favoritos" element={<Favorites/>} />
             <Route path="*" element={<PageNotFound/>} />
           </Routes>
         </div>
