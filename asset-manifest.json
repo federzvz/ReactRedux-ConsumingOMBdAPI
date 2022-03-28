@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.ce79cec4.css",
-    "main.js": "/static/js/main.1b20e08f.js",
-    "static/media/pageNotFound.png": "/static/media/pageNotFound.0ba55b6b4e5e76e5ac0f.png",
-    "static/media/userProfileImage.png": "/static/media/userProfileImage.109eb92014ac0b55efdf.png",
-    "index.html": "/index.html",
-    "main.ce79cec4.css.map": "/static/css/main.ce79cec4.css.map",
-    "main.1b20e08f.js.map": "/static/js/main.1b20e08f.js.map"
+    "main.css": "/ReactRedux-ConsumingOMBdAPI/static/css/main.ce79cec4.css",
+    "main.js": "/ReactRedux-ConsumingOMBdAPI/static/js/main.39c7602a.js",
+    "static/media/pageNotFound.png": "/ReactRedux-ConsumingOMBdAPI/static/media/pageNotFound.0ba55b6b4e5e76e5ac0f.png",
+    "static/media/userProfileImage.png": "/ReactRedux-ConsumingOMBdAPI/static/media/userProfileImage.109eb92014ac0b55efdf.png",
+    "index.html": "/ReactRedux-ConsumingOMBdAPI/index.html",
+    "main.ce79cec4.css.map": "/ReactRedux-ConsumingOMBdAPI/static/css/main.ce79cec4.css.map",
+    "main.39c7602a.js.map": "/ReactRedux-ConsumingOMBdAPI/static/js/main.39c7602a.js.map"
   },
   "entrypoints": [
     "static/css/main.ce79cec4.css",
-    "static/js/main.1b20e08f.js"
+    "static/js/main.39c7602a.js"
   ]
 }
